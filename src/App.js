@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
+import Dinner from "./Component/demoComp";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <h4>Learn Cloud Native Web & Mobile Application with Basit</h4>
+      <Dinner fname="Basit" lname="Hussain" />
     </div>
   );
 }
